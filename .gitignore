@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Local configuration and generated data
+.env
+backend/transcripter.db
+backend/temp_audio/*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
